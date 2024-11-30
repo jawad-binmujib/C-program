@@ -2,3 +2,10 @@
 int --> It means main() will return an integer value to the operating system when the program finishes executing.
 main() --> This is the name of the function where the program starts executing.
 () --> In this case, it takes no parameters (empty parentheses).
+printf --> It's a function that used to display output on the screen
+#include<stdio.h>
+int main(){
+    printf("Hello World");
+
+    return 0;
+}
