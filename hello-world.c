@@ -4,6 +4,9 @@ main() --> This is the name of the function where the program starts executing.
 () --> In this case, it takes no parameters (empty parentheses).
 printf --> It's a function that used to display output on the screen
 This printf statement outputs the text "Hello World" to the screen.
+return 0; --> In C, it's used in the main function to indicate that the program has successfully executed.
+
+
 #include<stdio.h>
 int main(){
     printf("Hello World");
