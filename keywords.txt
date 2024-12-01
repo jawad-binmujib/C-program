@@ -1,0 +1,28 @@
+# Keywords and Identifiers in C Programming
+    ## Keywords in C Programming
+        In C programming, keywords are reserved words that have predefined meanings in the language. 
+        These words cannot be used for variable names, function names, or any other identifiers. 
+        Each keyword serves a specific purpose in the C language and is part of the language's syntax.
+
+Here are some common keywords in C:
+
+- int     : Used to declare integer variables.
+- float   : Used to declare floating-point variables.
+- char    : Used to declare character variables.
+- if      : Used for conditional statements.
+- else    : Used with `if` for alternative conditions.
+- while   : Used for a loop that continues while a condition is true.
+- for     : Used for a for-loop structure.
+- return  : Exits a function and optionally returns a value.
+- break   : Exits from a loop or switch statement.
+- continue: Skips the current iteration of a loop and proceeds to the next one.
+- switch  : Used for multi-way branching.
+- case    : Defines possible branches in a `switch` statement.
+- struct  : Defines a structure to store multiple data types.
+- void    : Used for functions that do not return a value.
+- static  : Defines a variable or function with local scope but persistent memory.
+
+## The key point is that you cannot use them as names for variables, functions, or other identifiers in your code.
+
+---
+
