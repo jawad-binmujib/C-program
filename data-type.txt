@@ -46,3 +46,6 @@ C provides modifiers to adjust the range and precision of basic data types:
 - short int x;      --> Smaller integer.
 - unsigned int y;   --> Only positive integers.
 - long double z;    --> Higher precision floating-point number.
+
+-----------------------------------------------------------------------------------
+Happy Coding!!!
