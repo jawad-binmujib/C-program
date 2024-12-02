@@ -1,4 +1,4 @@
-##Variables in C
+## Variables in C
     - A variable is a named memory location used to store data during program execution.
     It can be assigned different values at different times in the program.
 
@@ -56,7 +56,7 @@
         - Declared using the static keyword.
     
     Example :
-
+    
     void staticExample() {
     
         static int count = 0;  // Static variable
