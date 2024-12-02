@@ -1,0 +1,76 @@
+##Variables in C
+    - A variable is a named memory location used to store data during program execution.
+    It can be assigned different values at different times in the program.
+
+## Declaring Variables 
+    - int age;
+    - float price;
+    - char grade;
+
+## Initializing Variables
+    - int age = 20;
+    - float price = 9.99;
+    - char grade = 'A';
+
+## Variable Naming Rules
+    - The name must begin with a letter or an underscore (_).
+    - It can contain letters, digits, and underscores, but no special characters.
+    - It cannot be a C keyword.
+    - C is case-sensitive: myVar and myvar are different.
+
+## Example of Valid & Invalid names:
+    - int valid_name;
+    - int _anotherValidName;
+    - int Invalid-Name; // Invalid due to special character '-' .
+    - int 9invalid;     // Invalid as it starts with a digit.
+
+## Type of Variables
+
+    * Local Varible
+        - Declared inside a function or block.
+        - Accessible only within the function or block.
+
+        Example :
+        void example() {
+            int localVar = 10;  // Local variable
+            printf("%d", localVar);
+        }
+
+    * Global Variables
+        - Declared outside any function.
+        - Accessible from any function in the program.
+    
+    Example :   
+    
+    int globalVar = 100;  // Global variable
+    void func1() {
+    printf("%d", globalVar);
+    }
+    
+    void func2() {
+    printf("%d", globalVar);
+    }
+
+    * Static Variable
+        - Retain their value between function calls.
+        - Declared using the static keyword.
+    
+    Example :
+
+    void staticExample() {
+    
+        static int count = 0;  // Static variable
+        count++;
+        printf("%d", count);
+    }
+
+    * External Variable:
+        - Declared using the extern keyword.
+        - Used to access global variables from another file.
+
+    Example:
+
+    extern int globalVar;
+
+-----------------------------------------------------------------------------
+Happy Coding!!!!!!!
