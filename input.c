@@ -1,17 +1,19 @@
-// practical Examples
-
+// Input Functions
 #include<stdio.h>
-// Output Functions
 int main(){
-int age = 20;
-printf("You are %d years old\n", age); // Using printf
+int num;
+printf("Enter a number: ");
+scanf("%d", &num);          // using scanf
+printf("You entered: %d\n", num);
 
-char c = 'A';
-putchar(c); // using putchar
+printf("Enter a character: "); 
+char c = getchar();         // using getchar
+printf("You entered: %c\n", c);
 
-puts("Hello, World!"); // using puts
+char name[50];
+printf("Enter your name: ");
+fgets(name, sizeof(name), stdin);  // using fgets()
+printf("Hello, %s", name);
 
-
-return 0;
+    return 0;
 }
-// Happy Coding!!!!!!!!!!!!!!!
