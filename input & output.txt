@@ -1,0 +1,50 @@
+Input/Output in C Programming
+    - Input and Output (I/O) in C are essential for interacting with the user and external systems. 
+    - This guide covers the basics to advanced I/O in C.
+
+Introduction to I/O
+    - C uses the stdio.h library for standard input and output operations.
+    - Input : Accept data from the user (e.g., keyboard).
+    - Output: Display data to the user (e.g., screen).
+
+Common Functions
+    - Input : scanf, getchar, fgets
+    - Output: printf, putchar, puts
+
+Output Functions
+    - Using printf
+        printf is used for formatted output.
+
+    Format Specifier	    |   Description
+    ------------------------|----------------------
+    %d	                    |    Integer
+    %f	                    |    Floating-point
+    %c	                    |    Single character
+    %s	                    |    String
+    
+    - Using putchar
+        Outputs a single character to the screen.
+    
+    - Using puts
+        Outputs a string and automatically appends a newline.
+
+
+Input Functions
+    - Using scanf
+        Reads formatted input from the user.
+
+    - Using getchar
+        Reads a single character from the input.
+
+    - Using fgets (Preferred over gets)
+        Reads a string safely (avoids buffer overflow).
+
+Escape Sequences
+    - Escape sequences allow you to include special characters in strings.
+
+Escape Sequence	   |     Meaning
+-------------------|--------------------
+\n	               |     Newline
+\t	               |     Tab
+\\	               |     Backslash
+\"	               |     Double quote
